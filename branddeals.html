@@ -10,26 +10,26 @@
     <!-- Own Styles -->
     <link rel="stylesheet" href="css/styles.css">
 	  <style>
+	  @import url('https://fonts.googleapis.com/css2?family=Angkor&family=Belleza&family=Roboto+Slab:wght@100..900&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Angkor&family=Belleza&family=Roboto+Slab:wght@100..900&display=swap')
-@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Belleza&family=Roboto+Slab:wght@100..900&display=swap')
-</style>
+	  </style>
 
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-    <title>Kick Her Goals &mdash; Home Page</title>
+    <title>PRJ4 Base Group Template &mdash; 2-column layout</title>
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
     <!-- End of Google Analytics code -->
-
+    
   </head>
-  <body class="h-100 d-flex flex-column backgroundlightpink">
+  <body class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="#">
           <img src="images/logo.png" width="40" alt="Kick Her Goals">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active; textcolorlightpink" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active; textcolorlightpink" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active; textcolorlightpink" href="aboutus.html">About Us</a>
@@ -47,12 +47,12 @@
               <a class="nav-link dropdown-toggle active; textcolorlightpink" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Community
               </a>
-              <ul class="dropdown-menu backgroundgreen" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item textcolorlightpink" href="blog.html">Blog</a></li>
-                <li><a class="dropdown-item textcolorlightpink" href="chat.html">Chat</a></li>
+              <ul class="dropdown-menu active; backgroundgreen" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item active; textcolorlightpink" href="blog.html">Blog</a></li>
+                <li><a class="dropdown-item active; textcolorlightpink" href="chat.html">Chat</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item textcolorlightpink" href="branddeals.html">Brand Deals</a></li>
-                <li><a class="dropdown-item textcolorlightpink" href="groups.html">Groups</a></li>
+                <li><a class="dropdown-item active; textcolorlightpink" aria-current="page" href="branddeals.html">Brand Deals</a></li>
+                <li><a class="dropdown-item active; textcolorlightpink" href="groups.html">Groups</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -61,7 +61,7 @@
             <li class="nav-item">
               <a class="nav-link active; textcolorlightpink" href="corporate.html">Corporate</a>
             </li>
-			<li class="nav-item">
+			  <li class="nav-item">
 			  <a class="nav-link acitve; textcolorlightpink" href="login.html">Log In</a>
 			  </li>
           </ul>
@@ -69,42 +69,43 @@
       </div>
     </nav>
     <!-- End of navigation bar -->
+	 <div class="row">
+		 <div class="col-sm-4 mb-3 mb-sm-0 backgroundpurple">
+	  <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title titlefont">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary backgroundgreen">Apply</a>
+  </div>
+</div>
+		 </div>
+		 <div class="col-sm-4 mb-3 mb-sm-0 backgroundpurple">
+	  <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title titlefont">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Apply</a>
+  </div>
+</div>
+	  </div>
+		 <div class="col-sm-4 mb-3 mb-sm-0 backgroundpurple">
+	  <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title titlefont">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Apply</a>
+  </div>
+</div>
+	  </div>
+	  </div>
 
-    <!-- Start of main placeholder in landing page -->
-	  <main class="d-flex flex-column justify-content-center align-items-center backgroundlightpink">
-		  <div class="d-flex col-12 justify-content-center align-items-center backgroundlightgreen">
-		   <img class="img; max-width: 300px; height:auto" src="images/logo.png" alt="logo">
-		  </div>
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="card" style="width: 20rem">
-  <img src="images/femalesoccerplayer1.png" class="card-img-top" alt="female player 1">
-  <div class="card-body; backgroundgreen">
-    <p class="card-text; textcolorlightpink">"Kick Her Goals made me feel more secure and supported than ever before."</p>
-  </div>
-</div>
-    </div>
-    <div class="carousel-item">
-     <div class="card; backgroundgreen" style="width: 20rem">
-  <img src="images/femalesoccerplayer2.jpg" class="card-img-top" alt="female player 2">
-  <div class="card-body">
-    <p class="card-text; textcolorlightpink">"This community made me realize I'm not the only player that worries about the future."</p>
-  </div>
-</div>
-    </div>
-    <div class="carousel-item">
-     <div class="card; backgroundgreen" style="width: 20rem">
-  <img src="images/femalesoccerplayer3.jpg" class="card-img-top" alt="female player 3">
-  <div class="card-body">
-    <p class="card-text; textcolorlightpink">"There are days where I can't wait to go on Kick Her goals and chat with others."</p>
-  </div>
-</div>
-    </div>
-  </div>
-		  </div>
-    </main>
-	  <footer class="shadow-lg mt-auto py-4 bg-body">
+    <!-- End of the grid with columns -->
+
+    <!-- A footer with socials -->
+    <footer class="shadow-lg mt-auto py-4 bg-body">
       <div class="container d-flex justify-content-between align-items-center">
         <p>
           © Kick Her Goals
@@ -123,7 +124,7 @@
         </ul>
       </div>
     </footer>
-    <!-- End of main placeholder -->
+    <!-- End of the footer -->
 
   </body>
 </html>

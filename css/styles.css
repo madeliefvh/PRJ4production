@@ -4,10 +4,13 @@
 
 /* Changing the main font and background colour */
 
-
+.titlefont {
+   font-family: "Belleza", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 body {
-
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 60;
@@ -20,13 +23,13 @@ body {
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background-color: #4ebdc4;
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #f67315;
+	background-color: #066927;
 }
 
 /* Effect on social media buttons */
@@ -42,8 +45,32 @@ footer a:hover {
 	font-weight: bold;
 }
 
-.textcolor {
-	text-color: #f8b9c8
+.textcolorpink {
+	color: #f8b9c8
+}
+
+.textcolorlightpink {
+	color: linen
+}
+
+.backgroundlightpink {
+	background-color: #EFE7E6
+}
+
+.backgroundpurple {
+	background-color: #DFBCC4
+}
+
+.backgroundgreen {
+	background-color: #2D833E
+}
+
+.backgroundlightgreen {
+	background-color: #A9C8B4
+}
+
+.backgroundorange {
+	background-color: #EDC398
 }
 /* Hero Section shadow */
 
@@ -52,4 +79,25 @@ footer a:hover {
 		.02em .02em .02em #ffebd4,
 		0 0 .2em #ffebd4,
 		0 0 .5em #ffebd4;
+}
+
+.chat-area {
+    border: 1px solid #ccc;
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+	background-color: #EFE7E6;
+}
+
+.input-area {
+    margin-top: 20px;
+}
+
+.btn {
+	background-color: #DFBCC4
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 80px); /* Adjust width based on button width */
 }

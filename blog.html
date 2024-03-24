@@ -9,24 +9,29 @@
 
     <!-- Own Styles -->
     <link rel="stylesheet" href="css/styles.css">
+	  <style>
+	  @import url('https://fonts.googleapis.com/css2?family=Angkor&family=Belleza&family=Roboto+Slab:wght@100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Belleza&family=Roboto+Slab:wght@100..900&display=swap')
+	  </style>
 
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	  
 
-    <title>PRJ4 Base Group Template &mdash; Cards UX</title>
+    <title>PRJ4 Base Group Template &mdash; Hero Section UX</title>
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
     <!-- End of Google Analytics code -->
-    
+
   </head>
-  <body class="h-100 d-flex flex-column">
+  <body class="h-100 d-flex flex-column backgroundlightpink">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="images/2gether-transparent.png" width="40" alt="Breda University of Applied Sciences">
+          <img src="images/logo.png" width="40" alt="Kick Her Goals">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,41 +39,39 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active; textcolorlightpink" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="example.html">Example</a>
+              <a class="nav-link active; textcolorlightpink" href="aboutus.html">About Us</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                UX Patterns
+              <a class="nav-link dropdown-toggle active; textcolorlightpink" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Community
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
-                <li><a class="dropdown-item active" aria-current="page" href="carousel.html">Carousel</a></li>
+              <ul class="dropdown-menu backgroundgreen" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item active" aria-current="page" href="blog.html">Blog</a></li>
+                <li><a class="dropdown-item" href="chat.html">Chat</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
-                <li><a class="dropdown-item" href="cards.html">Cards</a></li>
+                <li><a class="dropdown-item" href="branddeals.html">Brand Deals</a></li>
+                <li><a class="dropdown-item" href="groups.html">Groups</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
+              <a class="nav-link active; textcolorlightpink" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="corporate.html">Corporate</a>
+              <a class="nav-link active; textcolorlightpink" href="corporate.html">Corporate</a>
             </li>
+			  <li class="nav-item">
+			  <a class="nav-link acitve; textcolorlightpink" href="login.html">Log In</a>
+			  </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- End of navigation bar -->
 
-    <section class="container my-4">
-      <div class="border-start border-primary border-5 p-2 bg-primary bg-opacity-10 rounded">
-        <p>This is an example of a carousel, check the <a href="https://getbootstrap.com/docs/5.1/components/carousel/" target="_blank">Bootstrap documentation</a> for details.</p>
-    </section>
-
-    <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
+    <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
     <section class="container-fluid p-0">
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -78,29 +81,29 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/slide-1.jpg" class="d-block mx-auto w-100" alt="...">
+            <img src="images/balance.jpg" alt="balance" width="735" height="747" class="d-block mw-auto w-100">
             <div class="carousel-caption">
-              <h3 class="d-none d-md-block">The Horizon Building</h3>
+              <h3 class="d-none d-md-block titlefont">Finding a balance between soccer and family</h3>
               <p>
-                <a href="#" class="btn btn-outline-light my-md-2">Learn more<span class="d-inline d-md-none"> about Horizon</span></a>
+                <a href="#" class="btn btn-outline-light my-md-2">Learn more<span class="d-inline d-md-none"> about a balance</span></a>
               </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="images/slide-2.jpg" class="d-block mx-auto w-100" alt="...">
+            <img src="images/injury.jpg" class="d-block mx-auto w-100" alt="injury">
             <div class="carousel-caption">
-              <h3 class="d-none d-md-block">The Ocean Building</h3>
+              <h3 class="d-none d-md-block titlefont">How to stay in shape during an injury</h3>
               <p>
-                <a href="#" class="btn btn-outline-light my-md-2">Learn more<span class="d-inline d-md-none"> about Ocean</span></a>
+                <a href="#" class="btn btn-outline-light my-md-2">Learn more<span class="d-inline d-md-none"> about injuries</span></a>
               </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="images/slide-3.jpg" class="d-block mx-auto w-100" alt="...">
+            <img src="images/support.jpg" class="d-block mx-auto w-100" alt="support">
             <div class="carousel-caption">
-              <h3 class="d-none d-md-block">The Frontier Building</h3>
+              <h3 class="d-none d-md-block titlefont">Where do you find your support?</h3>
               <p>
-                <a href="#" class="btn btn-outline-light my-md-2">Learn more<span class="d-inline d-md-none"> about Frontier</span></a>
+                <a href="#" class="btn btn-outline-light my-md-2">Learn more<span class="d-inline d-md-none"> about support</span></a>
               </p>
             </div>
           </div>
@@ -115,43 +118,23 @@
         </button>
       </div>
     </section>
-    <!-- End of carrousel -->
+    <!-- End of hero section -->
 
     <!-- A footer with socials -->
     <footer class="shadow-lg mt-auto py-4 bg-body">
       <div class="container d-flex justify-content-between align-items-center">
         <p>
-          © 2020&ndash;2024 &mdash; Breda University of Applied Sciences
+          © Kick Her Goals
         </p>
         <ul class="list-unstyled d-flex align-items-center opacity-75">
           <li>
-            <a href="https://www.facebook.com/bredauniversityas" target="_blank">
-              <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
+            <a href="https://pin.it/2HQ5gAlWc" target="_blank">
+              <img class="m-2" src="images/pintersticon.png" alt="Follow us on" width="30">
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/school/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/linkedin.svg" alt="Follow us on LinkedIn" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/bredauas" target="_blank">
-              <img class="m-2" src="images/twitter.svg" alt="Follow us on Twitter" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/BredaUniversityofAppliedSciences" target="_blank">
-              <img class="m-2" src="images/youtube.svg" alt="Follow us on YouTube" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/bredauniversityas/" target="_blank">
+            <a href="https://www.instagram.com/kick_her_goals/" target="_blank">
               <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-              <img class="m-2" src="images/tiktok.svg" alt="Follow us on TikTok" width="26">
             </a>
           </li>
         </ul>
