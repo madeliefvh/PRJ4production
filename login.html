@@ -28,7 +28,7 @@
   <body class="h-100 d-flex flex-column backgroundlightpink">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" width="40" alt="Kick Her Goals">
@@ -70,12 +70,24 @@
       </div>
 	  </nav>
 	  <div class="d-flex col-12 justify-content-center align-items-center backgroundlightgreen">
-	  <form action="login.php" method="post">
-    <label for="username">Username:</label><br>
-    <input type="text" id="username" name="username"><br>
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password"><br><br>
-    <button type="submit" class= "backgroundpurple">Login</button>
+	  <form action="action_page.php" method="post">
+<div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw"> <a href="#"> Forgot password?</a></span>
+  </div>
 </form>
 	  </div>
 <footer class="shadow-lg mt-auto py-4 bg-body">
