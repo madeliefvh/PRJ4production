@@ -1,6 +1,9 @@
 /* Importing a Google Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Belleza&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Belleza&family=Roboto+Slab:wght@100..900&display=swap');
+
 
 /* Changing the main font and background colour */
 
@@ -12,8 +15,8 @@
 
 body {
   font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
+  font-optical-sizing: 300;
+  font-weight: 50;
   font-style: normal;
 }
 
