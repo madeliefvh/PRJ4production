@@ -7,6 +7,7 @@
 
 /* Changing the main font and background colour */
 
+/* start of fonts */
 .titlefont {
    font-family: "Belleza", sans-serif;
 	font-optical-sizing: 300;
@@ -21,7 +22,7 @@ body {
   font-style: normal;
 }
 
-
+/* end of fonts */
 
 
 /* Changing the background colour for the header */
@@ -49,6 +50,7 @@ footer a:hover {
 	font-weight: bold;
 }
 
+/* changing the specific colors */
 .textcolorpink {
 	color: #f8b9c8
 }
@@ -76,15 +78,8 @@ footer a:hover {
 .backgroundorange {
 	background-color: #EDC398
 }
-/* Hero Section shadow */
 
-.white-shadow {
-	text-shadow: -.01em -.01em .01em #ffebd4,
-		.02em .02em .02em #ffebd4,
-		0 0 .2em #ffebd4,
-		0 0 .5em #ffebd4;
-}
-
+/* chat area changes */
 .chat-area {
     border: 1px solid #ccc;
     height: 300px;
